@@ -1,0 +1,19 @@
+// Programa de prueba - Valido
+caminar "Bienvenido a Andante";
+
+numero paginas = 100;
+numero leidas = 0;
+texto libro = "El Principito";
+
+leer paginas;
+
+historia (leidas < paginas) inicio
+    avanzar leidas = leidas + 10;
+    caminar "Leidas " + leidas + " paginas";
+    
+    virar (leidas == 50) inicio
+        caminar "Mitad del libro";
+    final
+final
+
+caminar "Termine de leer " + libro;

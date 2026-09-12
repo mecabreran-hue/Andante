@@ -1,0 +1,17 @@
+// Prueba de multiples variables
+texto nombre;
+numero edad;
+decimal altura;
+
+caminar "Ingresa tu nombre:";
+leer nombre;
+
+caminar "Ingresa tu edad:";
+leer edad;
+
+caminar "Ingresa tu altura:";
+leer altura;
+
+caminar "Hola " + nombre;
+caminar "Edad: " + edad;
+caminar "Altura: " + altura;

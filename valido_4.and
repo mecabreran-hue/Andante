@@ -1,0 +1,13 @@
+// Prueba de precedencia
+numero a = 10;
+numero b = 3;
+numero resultado;
+
+avanzar resultado = a + b * 2;
+caminar "Resultado 1: " + resultado;
+
+avanzar resultado = (a + b) * 2;
+caminar "Resultado 2: " + resultado;
+
+avanzar resultado = a * b - 5;
+caminar "Resultado 3: " + resultado;

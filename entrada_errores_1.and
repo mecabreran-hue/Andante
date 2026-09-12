@@ -1,0 +1,11 @@
+// Programa de prueba - Con errores
+caminar "Probando errores";
+
+numero x = 10
+caminar "Hola"
+
+virar (x > 5) inicio
+    caminar "Mayor";
+
+numero y;
+avanzar y = "texto";

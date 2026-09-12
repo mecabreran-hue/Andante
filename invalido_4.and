@@ -1,0 +1,6 @@
+// Falta parentesis
+numero x = 10;
+
+virar x > 5 inicio
+    caminar "Mayor";
+final

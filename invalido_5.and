@@ -1,0 +1,7 @@
+// Falta parentesis en ciclo
+numero x = 0;
+
+historia x < 10 inicio
+    caminar x;
+    avanzar x = x + 1;
+final

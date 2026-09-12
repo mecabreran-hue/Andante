@@ -1,0 +1,9 @@
+// Prueba de condicional
+numero edad = 20;
+
+virar (edad >= 18) inicio
+    caminar "Mayor de edad";
+final
+sino inicio
+    caminar "Menor de edad";
+final

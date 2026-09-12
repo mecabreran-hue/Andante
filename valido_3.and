@@ -1,0 +1,11 @@
+// Prueba de ciclo
+numero i = 1;
+numero suma = 0;
+
+historia (i <= 5) inicio
+    avanzar suma = suma + i;
+    caminar "Suma parcial: " + suma;
+    avanzar i = i + 1;
+final
+
+caminar "Suma total: " + suma;
