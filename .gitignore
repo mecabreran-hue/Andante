@@ -1,9 +1,0 @@
-parser.tab.c
-parser.tab.h
-lex.yy.c
-andante
-andante.exe
-*.exe
-resultados_pruebas.txt
-.DS_Store
-Thumbs.db

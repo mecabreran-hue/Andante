@@ -1,0 +1,47 @@
+// ==========================================
+// ANDANTE - Programa Demostrativo
+// "El viaje de los libros"
+// ==========================================
+
+caminar "Bienvenido a Andante";
+caminar "El lenguaje que camina contigo";
+
+// Declaracion de variables
+numero paginas = 100;
+numero leidas = 0;
+texto libro = "El Principito";
+decimal tiempo = 0.0;
+
+// Entrada de datos
+caminar "Cuantas paginas tiene el libro?";
+leer paginas;
+
+// Calculo del tiempo estimado
+avanzar tiempo = paginas / 10.0;
+
+// Condicional con alternativa
+virar (paginas > 50) inicio
+    caminar "Es un libro largo";
+    caminar "Tiempo estimado: " + tiempo + " horas";
+final
+sino inicio
+    caminar "Es un libro corto";
+    caminar "Tiempo estimado: " + tiempo + " horas";
+final
+
+// Ciclo while
+caminar "Iniciando la lectura...";
+
+historia (leidas < paginas) inicio
+    avanzar leidas = leidas + 10;
+    caminar "Leidas " + leidas + " paginas de " + libro;
+    
+    // Condicional dentro del ciclo
+    virar (leidas == 50) inicio
+        caminar "Mitad del libro alcanzada";
+    final
+final
+
+// Salida final
+caminar "Termine de leer " + libro;
+caminar "Total de paginas leidas: " + leidas;
